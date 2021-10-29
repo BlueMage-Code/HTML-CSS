@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    background-color: #15315a;
+    border-radius: 20px;
+    margin: auto;
+    max-width: 80%;
+    min-width: 350px;
+    height: 350px;
+    position: relative;
+    box-shadow: 4px 3px rgb(1, 0, 3);
+    margin-top: 3%;
+    
+    
+}
+
+main > h1 {
+    font-size: 2rem;
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 1%;
+}
+main > div > img{
+    margin-bottom: 1%;
+}
+main > div {
+    text-align: center;
+}
+
+article{
+    background-color: rgba(11, 161, 199, 0.561);
+    padding: 1%;
+    position: relative;
+    border: auto;
+    border-radius: 14px;
+
+}
+
+article > p {
+    font-size: 1rem;
+    text-align: center;
+   
+    color: whitesmoke;
+    
+}
+article > ul > li > a{
+    text-decoration: none;
+    color: white;
+
+}
+
+article > ul > li > a:hover{
+    color: rgb(218, 15, 15);
+
+}
+article > ul{
+    list-style-position: inside;
+    padding-left: 4px;
+}
+
+
+
