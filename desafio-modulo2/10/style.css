@@ -1,0 +1,196 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Yaldevi:wght@347&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@400;500&display=swap');
+
+:root{
+        --cor0: #6fa0e6f3;
+        --cor1: #436494;
+        --cor2: #263954;
+        --cor3: #203047;
+        --cor4: #172333;
+
+        --fonte-padrao: arial, verdana, helvetica, sans-serif;
+        --fonte-texto: 'Yaldevi', sans-serif;
+        --fonte-destaque: 'Stick No Bills', sans-serif;
+      
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+abbr {
+    text-decoration: none;
+}
+
+
+img {
+    width: 100%;
+}
+.erro-picture {
+    max-width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+iframe {
+    width: 100%;
+}
+
+body{
+   font-family: var(--fonte-destaque);
+    background-color:var(--cor2);
+}   
+
+header{
+    color: white;
+    background-color:var(--cor4) ;
+    text-align: center;
+    padding-top: 50px;
+}
+    
+main {
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+    max-width: 800px;
+    min-width: 280px;
+}
+
+.titulo-principal-pagina {
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    font-size: 65px;
+
+}
+
+.texto-titulo {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    font-size: 18px;
+}
+
+section {
+    background-color: var(--cor3);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    margin: auto;
+    max-width: 700px;
+    min-width: 280px;
+}
+
+ul.lista-curiosidade {
+    list-style-position: inside;
+    columns: 2;
+    list-style-type: '\✔️\00A0\00A0' ;
+}
+
+.center {
+    text-align: center;
+    padding: 2% 4%;
+}
+
+.titulo-base {
+    height: auto;
+    background-color: var(--cor2);
+    background-image: linear-gradient(to right, #172333 , #436494 );
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 24px;
+}
+
+.titulo-secundario {
+    height: auto;
+    background-color: var(--cor2);
+    background-image: linear-gradient(to right, #172333 , #436494 );
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 24px;
+}
+
+.titulo-lista {
+    background-color: var(--cor1);
+    padding: 5px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.link-layout{
+    text-decoration: none;
+    color: rgb(197, 107, 107);
+    font-size: 20px;
+}
+a.link-layout:hover{
+    
+    transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    color: rgb(197, 47, 47); 
+    transition: all .4s ease-out;
+}
+
+a.link-normal {
+ text-decoration: underline ;
+ color: var(--cor3);
+
+}
+
+section a.link-normal {
+    color: white;
+}
+
+.video-central {
+    background-color: var(--cor2);
+    display: flex;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.nav-titulo {
+    display:flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: auto;  
+    padding-bottom: 16px;
+   
+}
+.p-conteudo{
+    font-size-adjust: initial;
+    margin: 8px;
+    font-size: 18px;
+    text-indent: 16px;
+    line-height: 28px;
+    font-family: var(--fonte-texto);
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.p-conteudo-lista {
+    font-size-adjust: initial;
+    margin: 8px;
+    font-size: 16px;
+    text-indent: 16px;
+    line-height: 28px;
+    font-family: var(--fonte-texto);
+    padding-top: 8px;
+}
+   
+footer {
+    background-color: var(--cor4);
+    color: white;
+    text-align: right;
+}
+
+.a-git {
+    color: tomato;
+    text-decoration: none;
+}
+
+ul > li {
+    padding: 8px 0px;
+}
